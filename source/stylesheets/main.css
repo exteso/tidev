@@ -2,7 +2,6 @@ body {
     background-color: #ffffff;
 }
 
-.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
 .carousel-control .fa-chevron-left, .carousel-control .fa-chevron-right {
     position: absolute;
     top: 50%;
@@ -18,4 +17,9 @@ body {
     right: 0%;
     padding-right:5px;
     text-align: right;
+}
+
+img.photo {
+    width: 100px;
+    height:100px;
 }
