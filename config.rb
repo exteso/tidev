@@ -55,7 +55,7 @@ set :images_dir, 'images'
 
 set :partials_dir, 'partials'
 
-activate :i18n, :langs => [:it , :en]
+activate :i18n, :mount_at_root => :it
 
 
 

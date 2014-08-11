@@ -1,10 +1,24 @@
 ---
 it:
-    menu_schedule: "Programma"
-    menu_speakers: "Relatori"
-    menu_tickets: "Biglietti"
-    menu_practical: "Logistica"
-    menu_sponsors: "Sostenitori"
+    context_path: ""
+    menu:
+        schedule: "Programma"
+        speakers: "Relatori"
+        tickets: "Biglietti"
+        practical: "Logistica"
+        sponsors: "Sostenitori"
+        change_language: "English version"
+        change_language_base_path: "/en"
+    carousel:
+        first:
+            title: "Dagli sviluppatori, per gli sviluppatori."
+            description: "Il nostro scopo è quello di organizzare una conferenza di altissimo livello, durante la quale gli sviluppatori possano entrare in contatto tra di loro, smanettare, essere ispirati ed imparare tutto il giorno (e la sera)."
+        second:
+            title: "I migliori. Nella tua lingua."
+            description: "Speaker di livello assoluto che presenteranno temi affascinanti. Garantiamo che almeno il 60% dei talk saranno in Italiano!"
+        third:
+            title: "L'Open Source è una priorità"
+            description: "Siamo convinti che l'Open Source stia già facendo la differenza. E te lo dimostreremo!"
     tracks:
         title: "I temi che tratteremo"
         serverside: 
@@ -37,9 +51,17 @@ it:
             save: "registrati"
     committee:
         title: "Chi siamo"
-        full_list: "tutti i collaboratori"
+        full_list: "il team al completo"
         description:
             fy: "breve descrizione di Federico. Massimo dieci parole. Ho detto dieci!"
             cg: "breve descrizione di Cristina. Massimo dieci parole. Ho detto dieci!"
             mf: "breve descrizione di Mario. Massimo dieci parole. Ho detto dieci!"
             cb: "breve descrizione di Celestino. Massimo dieci parole. Ho detto dieci!"
+    media:
+        main_sponsor: "Sponsor principali"
+    footer:
+        social: "Social media"
+        latest_posts: "Ultimi post"
+        conduct_code: "Codice di condotta"
+        contact_us: "Contatti"
+        about_us: "Chi siamo"
