@@ -1,8 +1,9 @@
 body {
-    background-color: #ffffff;
+    
+    padding-top: 50px;
+    max-width: 2400px;
 }
 
-.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
 .carousel-control .fa-chevron-left, .carousel-control .fa-chevron-right {
     position: absolute;
     top: 50%;
@@ -12,10 +13,44 @@ body {
 }
 
 .carousel-caption {
-    background-color:rgba(255,0,0,0.5);
-    
+    background-color:rgba(204,0,0,0.5);
     left: 20%;
     right: 0%;
     padding-right:5px;
     text-align: right;
+}
+
+img.photo {
+    width: 100px;
+    height:100px;
+}
+
+div.spacer {
+    margin: 10px 0;
+}
+
+div.logo {
+    width:200px;
+    height:100px;
+}
+
+div.footer {
+    background-color: rgb(204, 0, 0);
+    color:white;
+}
+
+div.footer a, div.footer a:hover {
+    color:white;
+}
+
+.red-band {
+    width:10px;
+    height:50px;
+    background-color: rgb(204, 0, 0);
+}
+
+.blue-band {
+    width:10px;
+    height:50px;
+    border-right: 1px solid white;
 }
